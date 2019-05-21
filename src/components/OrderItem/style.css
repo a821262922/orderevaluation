@@ -1,0 +1,90 @@
+.orderItem{
+    display: block;
+    padding:12px 10px 12px 15px;
+}
+.orderItem_picContainer{
+    padding-right: 10px;
+    display: inline-block;
+}
+.orderItem_pic{
+    width: 90px;
+    height:90px;
+}
+.orderItem_content{
+    display: inline-block;
+    width:calc(100% - 100px);/*需要空格*/
+}
+.orderItem_product{
+    max-width: 200px;
+    font-size: 17px;
+    font-weight: 700px;
+    color:#111;
+    padding-right: 8px;
+    box-sizing: border-box;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.orderItem_shop{
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.orderItem_shop{
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    font-size: 13px;
+    color: #777;
+    padding-top: 9px;
+    padding-bottom: 13px;
+}
+.orderItem_detail{
+    display: flex;
+    justify-content: space-between;
+    height:22px;
+    line-height: 22px;
+    padding-right: 22px;
+    padding-right: 4px;
+}
+.orderItem_price{
+    font-size: 13px;
+    color:#777;
+    vertical-align: 1px;
+    margin-left:10px;
+}
+.orderItem_price::before{
+    content:"\A5";
+    margin-right: 1px;
+}
+.orderItem_btn{
+    position: relative;
+    bottom: 5px;
+    color: #fff;
+    width:100px;
+    height:22px;
+    text-align: center;
+    border:0px;
+    font-size: 14px;
+}
+.orderItem_btn--red{
+    background-color: #e9203d;
+    cursor: pointer
+}
+.orderItem_btn--grey{
+    color:#999;
+}
+.orderItem_comment{
+    margin-left: 1%;
+    resize:none;
+    width:97.2%;
+    height:30%
+}
+.orderItem_star{
+    color:#999;
+    cursor: pointer
+}
+
+.orderItem_star--light{
+    color:#e9203d;
+}
